@@ -1,0 +1,81 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 3px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+.cuadros-one, .cuadros-two, .cuadros-three{
+  background: gray;
+  padding: 20px;
+  display: block;
+  margin-bottom: 20px;
+  color: black;
+}
+
+
+#tit-two{
+  padding: 20px;
+  display: block;
+  margin: 0px, 0px, 0px, 0px;
+}
+
+#container{
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  display: block;
+}
+
+h2{
+  text-align: center;
+  color: black;
+}
+
